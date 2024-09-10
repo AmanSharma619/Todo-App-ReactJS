@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  color: white;
+  font-family: "Inter", "sans-serif";
+  font-weight: 400;
+ 
+}
+.heading{
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  height: 90vh;
+  width: 10vw;
+  background-color: #15101C;
+}
+ .input input{
+  border: 1px solid #9E78CF;
+  color: white;
+}
+.input button{
+  background-color: #9E78CF;
+  width: 32px;
+  height: 32px;
+}
+.input input::placeholder{
+  font-family: "Inter", "sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+.input{
+  padding: 10px;
+}
+.invert{
+  filter: invert(1);
+}
+.todolist {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-size: 14px;
+  
+}
+.todolist::-webkit-scrollbar{
+  background-color: transparent;
+}
+.done{
+border-bottom: 1px solid white;
+font-size: 14px;
+.done-item{
+  animation: fadein 0.4s;
+}
+}
+.done::-webkit-scrollbar{
+  background-color: transparent;
+}
+.hover:hover{
+  background-color: #9E78CF;
+  color: black;
+}
+h2{
+  color: white;
+}
+.todo-item{
+  animation: fadein 0.4s;
+}
+@keyframes fadein {
+  from{
+opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+  }
+  
+}
